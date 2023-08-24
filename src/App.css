@@ -1,0 +1,129 @@
+.navbar-brand{
+  font-size: 2rem;
+}
+.navbar li{
+  padding: 0 0.5rem;
+}
+.navbar li a{
+  font-size:1.07rem;
+  font-weight:normal;
+  position: relative;
+}
+.navbar li a:hover{
+  color:darkmagenta;
+}
+.btn-style{
+  width: 4rem;
+  height: 2rem;
+  border-radius:10px;
+  text-align: center;
+  background-color:grey;
+  color: rgb(248, 146, 13);
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn-style:first-child{
+  margin-right:0.5rem;
+}
+.navbar {
+  background-color: rgb(158, 175, 196);
+}
+header{
+  background-color:white;
+}
+.main-hero-container{
+  text-transform: capitalize;
+  color: darkmagenta;
+  font-style: italic;
+}
+.main-hero-container h1{
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.main-hero-para{
+  font-size: 1rem;
+  color:darkred;
+  margin: 1rem 0 3rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+.main-hero-container row{
+  box-sizing:2px;
+  background-color: aqua;
+}
+.input-group{
+  position:  relative!important;
+}
+.form-control-text{
+  position: absolute;
+  height: 3rem;
+  border: 3rem;
+  padding-left: 1.5rem !important;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+.input-group-button{
+  position: absolute;
+  left:53.55%;
+  top: -0.5rem;
+  color: #fff;
+  background-color: blueviolet;
+  height: 3rem;
+  width: 20%;
+  border-radius:1.5rem !important ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items:center;
+
+}
+.input-group-button:hover{
+  background-color: green;
+}
+ion-icon {
+  font-size:2rem;
+}
+.photo{
+  width: 400px;
+  height: 300px;
+}
+.container{
+  text-transform: capitalize;
+}
+
+/* contact form */
+.contact-section{
+  margin: 10rem 0;
+}
+
+
+.contact-leftside img{
+  width: 200px;
+  height: 200px;
+}
+.contact-input-field{
+  margin-bottom: 2rem;
+
+}
+/* footer */
+footer{
+  padding: 0.2rem 0;
+  background-color:rgb(158, 175, 196);
+  
+}
+footer li{
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+footer li:hover{
+  color: green;
+}
+footer .main-hero-para{
+  margin: 0;
+  color: rgb(157, 2, 157);
+}
+
